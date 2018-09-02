@@ -2,9 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3.
 
+RxJS implementation of Angular session storage.
+Motivation:- To have an observable like implementation for loading browser key value store.
+This example shows how a user can load application rights using RxJS, so working with UI is a bit easier as whenever rights are loaded, the UI or component will render automatically. 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+
 
 ## Code scaffolding
 
