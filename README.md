@@ -1,9 +1,9 @@
-# RxjsCache
+# RxjsStorage
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3.
 
 RxJS implementation of Angular session storage.
-Motivation:- To have an observable like implementation for loading browser key value store.
+Motivation:- To have an observable like implementation for loading browser key value store or storage.
 This example shows how a user can load application rights using RxJS, so working with UI is a bit easier as whenever rights are loaded, the UI or component will render automatically. 
 
 ## Development server

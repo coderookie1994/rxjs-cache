@@ -3,11 +3,13 @@ import { Injectable, Inject } from "@angular/core";
 import * as lodash from 'lodash';
 import { BehaviorSubject, Observable, of } from "rxjs";
 
-@Injectable()
+@Injectable({
+    providedIn: 'root'
+})
 export class LocalStorageService {
 
     private cache: any[] = [];
-    public cacheEmitterSubject = new BehaviorSubject<any[]>(this.cache);
+    private cacheEmitterSubject = new BehaviorSubject<any[]>(this.cache);
 
     constructor(@Inject(SESSION_STORAGE) private storage: WebStorageService) { }
 
